@@ -81,10 +81,11 @@ namespace API.Controllers
         }
 
 
-
+        #region private method
         private async Task<bool> UserExist(string username)
         {
             return await _context.Users.AnyAsync(user => user.UserName == username);
         }
+        #endregion
     }
 }
