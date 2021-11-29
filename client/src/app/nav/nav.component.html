@@ -29,7 +29,7 @@
                 <img src="{{user.photoUrl || './assets/user.png'}}" alt="{{user.username}}">
                 <button id="button-basic" dropdownToggle type="button" 
                   class="btn btn-primary dropdown-toggle ml-2" aria-controls="dropdown-basic">
-                  Welcome {{user.username | titlecase}}
+                  Welcome {{user.knownAs | titlecase}}
                   <span class="caret"></span>
                 </button>
                 <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu mt-3"
