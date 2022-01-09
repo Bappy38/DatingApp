@@ -17,3 +17,11 @@
 .rounded-circle {
     max-height: 50px;
 }
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
